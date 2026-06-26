@@ -45,7 +45,7 @@ api_version = "2026-07"
   topics = [ "app/scopes_update" ]
 
 [auth]
-redirect_urls = [ "https://shopifyapp-developer-task.onrender.com/api/auth" ]
+redirect_urls = [ "https://shopifyapp-developer-task.onrender.com/auth"]
 
 [build]
 include_config_on_deploy = true
