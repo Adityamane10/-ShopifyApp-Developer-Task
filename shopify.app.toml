@@ -3,7 +3,7 @@
 client_id = "0b3c27c950b4d935c1774cb0c8e2075f"
 name = "announcement-app"
 # APPLICATION_URL env variable handles this in production
-application_url = "https://example.com"
+application_url = "https://shopifyapp-developer-task.onrender.com"
 embedded = true
 
 [access_scopes]
@@ -45,7 +45,7 @@ api_version = "2026-07"
   topics = [ "app/scopes_update" ]
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [ "https://shopifyapp-developer-task.onrender.com/api/auth" ]
 
 [build]
 include_config_on_deploy = true
