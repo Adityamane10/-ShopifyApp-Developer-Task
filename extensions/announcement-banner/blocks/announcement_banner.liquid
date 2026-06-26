@@ -1,0 +1,19 @@
+{{ 'announcement-banner.css' | asset_url | stylesheet_tag }}
+
+{%- assign announcement_text = shop.metafields.my_app.announcement.value | default: shop.metafields.my_app.announcement -%}
+
+{%- if announcement_text != blank -%}
+  <div class="announcement-banner" role="status" aria-live="polite">
+    <div class="announcement-banner__text">
+      {{ announcement_text }}
+    </div>
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Announcement Banner",
+  "target": "body",
+  "settings": []
+}
+{% endschema %}

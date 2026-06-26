@@ -1,0 +1,31 @@
+.announcement-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background: #008060;
+  padding: 12px 16px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.announcement-banner__text {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .announcement-banner {
+    padding: 10px 14px;
+  }
+
+  .announcement-banner__text {
+    font-size: 14px;
+  }
+}
