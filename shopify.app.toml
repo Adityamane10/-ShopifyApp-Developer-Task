@@ -7,7 +7,7 @@ application_url = "https://shopifyapp-developer-task.onrender.com"
 embedded = true
 
 [access_scopes]
-scopes = "write_products,write_metaobjects,write_metaobject_definitions"
+scopes = "read_products,write_products,read_metafields,write_metafields"
 
 [product.metafields.app.demo_info]
 type = "single_line_text_field"
